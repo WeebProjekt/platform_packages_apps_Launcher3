@@ -36,4 +36,10 @@
     <string name="show_quickspace_title">At A Glance</string>
     <string name="show_quickspace_summary">Show at the top of your Home screen</string>
 
+     <!-- Gradients on Workspace/Hotseat -->
+    <string name="workspace_gradient_title">Show gradient on top</string>
+    <string name="workspace_gradient_summary">Enable a subtle gradient from the status bar</string>
+    <string name="hotseat_gradient_title">Show gradient on bottom</string>
+    <string name="hotseat_gradient_summary">Enable a subtle gradient from the launcher dock</string>
+
 </resources>
