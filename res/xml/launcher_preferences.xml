@@ -38,18 +38,18 @@
         android:persistent="true" />
 
     <SwitchPreference
+        android:key="pref_show_quickspace"
+        android:title="@string/show_quickspace_title"
+        android:summary="@string/show_quickspace_summary"
+        android:defaultValue="true"
+        android:persistent="true"/>
+
+    <SwitchPreference
         android:key="pref_allowRotation"
         android:title="@string/allow_rotation_title"
         android:summary="@string/allow_rotation_desc"
         android:defaultValue="@bool/allow_rotation"
         android:persistent="true" />
-
-    <SwitchPreference
-        android:key="pref_desktop_show_qsb"
-        android:title="@string/desktop_show_qsb_title"
-        android:summary="@string/desktop_show_qsb_summary"
-        android:defaultValue="true"
-        android:persistent="true"/>
 
     <SwitchPreference
         android:defaultValue="true"
